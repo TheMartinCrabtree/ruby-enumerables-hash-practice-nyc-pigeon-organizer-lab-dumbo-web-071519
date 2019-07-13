@@ -43,7 +43,7 @@ def nyc_pigeon_organizer(data)
     name.each do |bird_name|
       keyindex.each do |element|
         if bird_name === element
-          final[element][:lives] << location
+          pigeon_output[element][:lives] << location
         end 
       end 
     end 
